@@ -1,0 +1,32 @@
+<ion-toolbar position="top" teal>
+  <ion-title>Camera</ion-title>
+  <ion-buttons end>
+    <button royal (click)="openCamera()">
+      <ion-icon name="camera"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content padding class="home">
+  <ion-img src="{{path}}"></ion-img>
+</ion-content>
+
+<ion-toolbar *ngIf="displayPhotoMenu" position="bottom" tealight>
+  <ion-buttons>
+    <ion-title>Share</ion-title>
+  </ion-buttons>
+  <ion-buttons end class="share-buttons">
+    <button royal (click)="shareViaWhatsApp()">
+      <ion-icon ios="logo-whatsapp" md="logo-whatsapp"></ion-icon>
+    </button>
+    <button royal (click)="shareViaTwitter()">
+      <ion-icon ios="logo-twitter" md="logo-twitter"></ion-icon>
+    </button>
+    <button royal (click)="shareViaFacebook()">
+      <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon>
+    </button>
+    <button royal (click)="shareViaInstagram()">
+      <ion-icon ios="logo-instagram" md="logo-instagram"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar>
