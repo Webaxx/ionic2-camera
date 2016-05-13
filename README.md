@@ -26,8 +26,6 @@ Using camera with Ionic 2
 `cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git`
 
 ### Deploy
-ìonic run android`
+`ionic run android`
 
-ìonic run ios`
-
-
+`ionic run ios`
