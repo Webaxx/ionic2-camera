@@ -7,7 +7,7 @@ Using camera with Ionic 2
 `npm install -g cordova`
 
 ### Create project
-`ionic start TutoCamera --v2 --ts``
+`ionic start TutoCamera --v2 --ts`
 
 `cd TutoCamera`
 
