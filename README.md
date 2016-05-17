@@ -1,6 +1,9 @@
 # ionic2-camera
 Using camera with Ionic 2
 
+### Check out the tutorial on the site
+http://webaxx.fr/ionic-2/camera-avec-ionic-2/
+
 ### Install Ionic2 and Cordova
 `npm install -g ionic@beta`
 
